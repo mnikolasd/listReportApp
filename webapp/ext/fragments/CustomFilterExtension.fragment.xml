@@ -1,0 +1,16 @@
+<core:FragmentDefinition 
+	xmlns:core="sap.ui.core" 
+	xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" 
+	xmlns="sap.m">
+	<smartfilterbar:ControlConfiguration groupId="_BASIC" index="1" key="NetAmountRangeFilter" label="Net Amount ranges" visibleInAdvancedArea="true">
+		<smartfilterbar:customControl>
+			<ComboBox id="PriceRangeFilter-combobox" selectedKey="0">
+				<core:Item key="0" text="All"/>
+				<core:Item key="1" text="Net amount between 0-1000"/>
+				<core:Item key="2" text="Net amount between 1000-5000"/>
+				<core:Item key="3" text="Net amount between 5000-10000"/>
+				<core:Item key="4" text="Net amount over 10000"/>
+			</ComboBox>
+		</smartfilterbar:customControl>
+	</smartfilterbar:ControlConfiguration>
+</core:FragmentDefinition>
