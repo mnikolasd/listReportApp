@@ -1,0 +1,1 @@
+var oTest = this.getView();
